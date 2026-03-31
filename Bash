@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "Initial launch"
+# Create a new repo on github.com, then link it:
+git remote add origin https://github.com/YOUR_USERNAME/el-tekniko.git
+git branch -M main
+git push -u origin main
